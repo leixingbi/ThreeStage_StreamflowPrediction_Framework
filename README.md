@@ -3,7 +3,7 @@ Description:
 
   Streamflow data for FYR and NPR basins are in the Sample.xlsx file.
 
-  TFD-SVM zip file packed the hybrid model codes and stand-alone SVM codes
+  TFD-SVM zip file packed the hybrid model and stand-alone SVM codes
 
   IRM zip file packed the reconstruction method codes (include two parts)
 
