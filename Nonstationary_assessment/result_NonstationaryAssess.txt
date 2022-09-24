@@ -1,0 +1,96 @@
+<strong>#####################################################################
+#                      Seasonal  Changepoints                       #
+#####################################################################
+</strong>.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.009|*                                               |
+|Pr(ncp = 1 )=0.005|*                                               |
+|Pr(ncp = 2 )=0.006|*                                               |
+|Pr(ncp = 3 )=0.005|*                                               |
+|Pr(ncp = 4 )=0.001|*                                               |
+|Pr(ncp = 5 )=0.001|*                                               |
+|Pr(ncp = 6 )=0.001|*                                               |
+|Pr(ncp = 7 )=0.000|*                                               |
+|Pr(ncp = 8 )=0.002|*                                               |
+|Pr(ncp = 9 )=0.035|**                                              |
+|Pr(ncp = 10)=0.935|*********************************************** |
+.-------------------------------------------------------------------.
+|    Summary for number of Seasonal ChangePoints (scp)              |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxSeasonKnotNum: A parameter you set          |
+|ncp_mode   = 10   | Pr(ncp=10)=0.94: There is a 93.5% probability  |
+|                  | that the seasonal component has 10 chgnpt(s).  |
+|ncp_mean   = 9.73 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 10.00 | 10% percentile for number of changepoints      |
+|ncp_median = 10.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 10.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable seasonal changepoints ranked by probability of   |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|scp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |2010.456299                |0.98429             |
+|2                 |2011.956299                |0.97854             |
+|3                 |2015.456299                |0.97700             |
+|4                 |1984.539673                |0.97513             |
+|5                 |1983.456299                |0.97392             |
+|6                 |1974.373047                |0.96983             |
+|7                 |1971.123047                |0.96271             |
+|8                 |1972.206299                |0.64542             |
+|9                 |2000.289673                |0.62437             |
+|10                |1995.456299                |0.48142             |
+.-------------------------------------------------------------------.
+
+
+
+<strong>#####################################################################
+#                      Trend  Changepoints                          #
+#####################################################################
+</strong>.-------------------------------------------------------------------.
+| Ascii plot of probability distribution for number of chgpts (ncp) |
+.-------------------------------------------------------------------.
+|Pr(ncp = 0 )=0.000|*                                               |
+|Pr(ncp = 1 )=0.000|*                                               |
+|Pr(ncp = 2 )=0.000|*                                               |
+|Pr(ncp = 3 )=0.000|*                                               |
+|Pr(ncp = 4 )=0.000|*                                               |
+|Pr(ncp = 5 )=0.000|*                                               |
+|Pr(ncp = 6 )=0.000|*                                               |
+|Pr(ncp = 7 )=0.001|*                                               |
+|Pr(ncp = 8 )=0.001|*                                               |
+|Pr(ncp = 9 )=0.006|*                                               |
+|Pr(ncp = 10)=0.993|*********************************************** |
+.-------------------------------------------------------------------.
+|    Summary for number of Trend ChangePoints (tcp)                 |
+.-------------------------------------------------------------------.
+|ncp_max    = 10   | MaxTrendKnotNum: A parameter you set           |
+|ncp_mode   = 10   | Pr(ncp=10)=0.99: There is a 99.3% probability  |
+|                  | that the trend component has 10 changepoint(s).|
+|ncp_mean   = 9.99 | Sum{ncp*Pr(ncp)} for ncp = 0,...,10            |
+|ncp_pct10  = 10.00 | 10% percentile for number of changepoints      |
+|ncp_median = 10.00 | 50% percentile: Median number of changepoints  |
+|ncp_pct90  = 10.00 | 90% percentile for number of changepoints      |
+.-------------------------------------------------------------------.
+| List of probable trend changepoints ranked by probability of      |
+| occurrence: Please combine the ncp reported above to determine    |
+| which changepoints below are  practically meaningful              |
+'-------------------------------------------------------------------'
+|tcp#              |time (cp)                  |prob(cpPr)          |
+|------------------|---------------------------|--------------------|
+|1                 |1973.373047                |0.99904             |
+|2                 |2011.956299                |0.99221             |
+|3                 |1983.373047                |0.98904             |
+|4                 |1974.373047                |0.98400             |
+|5                 |1971.373047                |0.97838             |
+|6                 |2010.373047                |0.96675             |
+|7                 |1987.039673                |0.85708             |
+|8                 |1999.623047                |0.83113             |
+|9                 |1984.706299                |0.74146             |
+|10                |2016.373047                |0.62267             |
+.-------------------------------------------------------------------.
+
+
+
