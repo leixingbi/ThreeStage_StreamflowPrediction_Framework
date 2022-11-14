@@ -37,7 +37,7 @@ git clone https://github.com/leixingbi/ThreeStage_StreamflowPrediction_Framework
 
 2. Open this repository with Pycharm software (or other IDEs);
 
-3. Install the dependencies organized in the file “requirements.txt”;
+3. Install the dependencies mentioned in Open-source software (or install all third-party libraries organized in the file “requirements.txt”)
 
 3. Run the file “main_ParallelAccelerationVersion.py” in Pycharm IDE for the auto operation of the proposed framework methodology and its realizations;
 
