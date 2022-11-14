@@ -1,19 +1,19 @@
 
 Code and data repository for "A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction"
 
-Title
+Title:
 Code and data for " A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction "
 
-Author
+Author:
 Xingbi Lei (leixingbi@st.gxu.edu.cn, leixingbi@foxmail.com)
 
-Institutions
+Institutions:
 College of Architecture and Civil Engineering, Guangxi University, Nanning 530000, China
 
-Categories
+Categories:
 hydro; surface water
 
-Description
+Description:
 This data repository contains code and data for the research article “A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction”, which is currently under review for the journal Science of The Total Environment.
 
 The data used in this study is the monthly streamflow data sets (1963/01-2017/12) of the Bashou, Fyras and Wyoming-Nebraska station in the Chengbi River basin (China), Fyran River basin (Sweden), and North Platte River basin (US), respectively. Those data are organized in “DATA.xls” file. It should be noted that due to policy limitations, the streamflow data collected from Bashou station are not published here. 
@@ -43,10 +43,8 @@ git clone https://github.com/leixingbi/ThreeStage_StreamflowPrediction_Framework
 Note that we provide a more detailed code(s) explanation within each file. The operation results are organized in the file “result_multi_process.xlsx”, “Result” directory.
 
 Reference
+
 Stéfan, v. d. W., Colbert, S. C., and Varoquaux, G.: The NumPy Array: A Structure for Efficient Numerical Computation: A Structure for Efficient Numerical Computation,Comput.Sci.Eng.,13,22–30, https://doi.org/10.1109/MCSE.2011.37, 2011   [NUMPY]
-
-
-
 Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado, G. S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I., Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur, M., Levenberg, J., Mane, D., Monga, R., Moore, S., Murray, D., Olah, C., Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P., Vanhoucke, V., Vasudevan, V., Viegas, F., Vinyals, O., Warden, P., Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X.: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems, 2016.
 McKinney, W., 2010. Data Structures for Statistical Computing in Python, pp. 51–56.
 Stéfan, v.d.W., Colbert, S.C., Varoquaux, G., 2011. The NumPy Array: A Structure for Efficient Numerical Computation. A Structure for Efficient Numerical Computation. Comput. Sci. Eng. 13 (2), 22–30.
