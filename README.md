@@ -46,13 +46,23 @@ Note that we provide a more detailed code(s) explanation within each file. The o
 Reference
 
 Zhao, K. et al., 2019. Detecting change-point, trend, and seasonality in satellite time series data to track abrupt changes and nonlinear dynamics: A Bayesian ensemble algorithm. Remote Sensing of Environment, 232: 111181.https://doi.org/10.1016/j.rse.2019.04.034
+
 Stéfan, v. d. W., Colbert, S. C., and Varoquaux, G.: The NumPy Array: A Structure for Efficient Numerical Computation: A Structure for Efficient Numerical Computation,Comput.Sci.Eng.,13,22–30, https://doi.org/10.1109/MCSE.2011.37, 2011
+
 Ofir Pele and Michael Werman. Fast and robust earth mover’s distances. Proc. 2009 IEEE 12th Int. Conf. on Computer Vision, Kyoto, Japan, 2009, pp. 460-467.
+
 Vinícius R. Carvalho, Márcio F.D. Moraes, Antônio P. Braga, Eduardo M.A.M. Mendes, Evaluating five different adaptive decomposition methods for EEG signal seizure detection and classification, Biomedical Signal Processing and Control, Volume 62, 2020, 102073, ISSN 1746-8094, https://doi.org/10.1016/j.bspc.2020.102073.
+
 https://github.com/zhaokg/Rbeast  (last access: 17 September 2022).
+
 https://scikit-learn.org/stable/about.html#citing-scikit-learn (last access: 17 September 2022).
+
 https://pypi.org/project/EMD-signal/ (last access: 17 September 2022).
+
 https://pypi.org/project/scikit-opt/ (last access: 17 September 2022).
+
 https://pypi.org/project/scikit-learn/ (last access: 17 September 2022).
+
 https://pypi.org/project/xlwings/ (last access: 17 September 2022).
+
 https://pypi.org/project/numpy/(last access: 17 September 2022).
