@@ -37,7 +37,7 @@ git clone https://github.com/leixingbi/ThreeStage_StreamflowPrediction_Framework
 
 2. Open this repository with Pycharm software (or other IDEs);
 
-3. Install the dependencies mentioned in Open-source software (or install all third-party libraries organized in the file “requirements.txt”)
+3. Install the dependencies mentioned in Open-source software (or install the third-party libraries organized in the file “requirements.txt”)
 
 3. Run the file “main_ParallelAccelerationVersion.py” in Pycharm IDE for the auto operation of the proposed framework methodology and its realizations;
 
@@ -45,13 +45,14 @@ Note that we provide a more detailed code(s) explanation within each file. The o
 
 Reference
 
-Stéfan, v. d. W., Colbert, S. C., and Varoquaux, G.: The NumPy Array: A Structure for Efficient Numerical Computation: A Structure for Efficient Numerical Computation,Comput.Sci.Eng.,13,22–30, https://doi.org/10.1109/MCSE.2011.37, 2011   [NUMPY]
-Abadi, M., Agarwal, A., Barham, P., Brevdo, E., Chen, Z., Citro, C., Corrado, G. S., Davis, A., Dean, J., Devin, M., Ghemawat, S., Goodfellow, I., Harp, A., Irving, G., Isard, M., Jia, Y., Jozefowicz, R., Kaiser, L., Kudlur, M., Levenberg, J., Mane, D., Monga, R., Moore, S., Murray, D., Olah, C., Schuster, M., Shlens, J., Steiner, B., Sutskever, I., Talwar, K., Tucker, P., Vanhoucke, V., Vasudevan, V., Viegas, F., Vinyals, O., Warden, P., Wattenberg, M., Wicke, M., Yu, Y., and Zheng, X.: TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems, 2016.
-McKinney, W., 2010. Data Structures for Statistical Computing in Python, pp. 51–56.
-Stéfan, v.d.W., Colbert, S.C., Varoquaux, G., 2011. The NumPy Array: A Structure for Efficient Numerical Computation. A Structure for Efficient Numerical Computation. Comput. Sci. Eng. 13 (2), 22–30.
-Dragomiretskiy, K., Zosso, D., 2014. Variational Mode Decomposition. IEEE Trans. Signal Process. 62 (3), 531–544.
-Wu, Z., Huang, N.E., 2009. Ensemble Empirical Mode Decomposition: a Noise-Assisted Data Analysis Method. Adv. Adapt. Data Anal. 01 (01), 1–41.
-Pedregosa, F., Varoquaux, G., Gramfort, A., Michel, V., Thirion, B., Grisel, O., Blondel, M., Prettenhofer, P., Weiss, R., Dubourg, V., Vanderplas, J., Passos, A., Cournapeau, D., Brucher, M., Perrot, M., Duchesnay, É., 2011. Scikit-learn. Machine Learning in Python. Journal of Machine Learning Research 12, 2825–2830.
-Tim, H., MechCoder, Gilles, L., Iaroslav, S., fcharras, Zé Vinícius, cmmalone, Christopher, S., nel215, Nuno, C., Todd, Y., Stefano, C., Thomas, F., rene-rex, Kejia, (K.) S., Justus, S., carlosdanielcsantos, Hvass-Labs, Mikhail, P., SoManyUsernamesTaken, Fred, C., Loïc, E., Lilian, B., Mehdi, C., Karlson, P., Fabian, L., Christophe, C., Anna, G., Andreas, M., and Alexander, F.: Scikit-Optimize/Scikit-Optimize: V0.5.2, Zenodo, 2018.
-Hunter, J.D., 2007. Matplotlib. A 2D Graphics Environment. Computing in Science & Engineering 9, 90–95.
-Jordan D'Arcy: Introducing SSA for Time Series Decomposition, Kaggle, 4/29/2018, https://www.kaggle.com/jdarcy/introducing-ssa-for-time-series-decomposition, last access: 28 April 2020.966Z, 2018.
+Zhao, K. et al., 2019. Detecting change-point, trend, and seasonality in satellite time series data to track abrupt changes and nonlinear dynamics: A Bayesian ensemble algorithm. Remote Sensing of Environment, 232: 111181.https://doi.org/10.1016/j.rse.2019.04.034
+Stéfan, v. d. W., Colbert, S. C., and Varoquaux, G.: The NumPy Array: A Structure for Efficient Numerical Computation: A Structure for Efficient Numerical Computation,Comput.Sci.Eng.,13,22–30, https://doi.org/10.1109/MCSE.2011.37, 2011
+Ofir Pele and Michael Werman. Fast and robust earth mover’s distances. Proc. 2009 IEEE 12th Int. Conf. on Computer Vision, Kyoto, Japan, 2009, pp. 460-467.
+Vinícius R. Carvalho, Márcio F.D. Moraes, Antônio P. Braga, Eduardo M.A.M. Mendes, Evaluating five different adaptive decomposition methods for EEG signal seizure detection and classification, Biomedical Signal Processing and Control, Volume 62, 2020, 102073, ISSN 1746-8094, https://doi.org/10.1016/j.bspc.2020.102073.
+https://github.com/zhaokg/Rbeast  (last access: 17 September 2022).
+https://scikit-learn.org/stable/about.html#citing-scikit-learn (last access: 17 September 2022).
+https://pypi.org/project/EMD-signal/ (last access: 17 September 2022).
+https://pypi.org/project/scikit-opt/ (last access: 17 September 2022).
+https://pypi.org/project/scikit-learn/ (last access: 17 September 2022).
+https://pypi.org/project/xlwings/ (last access: 17 September 2022).
+https://pypi.org/project/numpy/(last access: 17 September 2022).
