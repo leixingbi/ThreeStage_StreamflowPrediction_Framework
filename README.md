@@ -1,17 +1,13 @@
 Title:
-
 Code and data repository for "A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction"
 
 Author:
-
 Xingbi Lei (leixingbi@st.gxu.edu.cn, leixingbi@foxmail.com)
 
 Institutions:
-
 College of Architecture and Civil Engineering, Guangxi University, Nanning 530000, China
 
 Categories:
-
 hydro; surface water
 
 Description:
