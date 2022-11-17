@@ -1,8 +1,6 @@
 
-Code and data repository for "A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction"
-
 Title:
-Code and data for " A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction "
+Code and data repository for "A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction"
 
 Author:
 Xingbi Lei (leixingbi@st.gxu.edu.cn, leixingbi@foxmail.com)
@@ -16,15 +14,15 @@ hydro; surface water
 Description:
 This data repository contains code and data for the research article “A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction”, which is currently under review for the journal Science of The Total Environment.
 
-The data used in this study is the monthly streamflow data sets (1963/01-2017/12) of the Bashou, Fyras and Wyoming-Nebraska station in the Chengbi River basin (China), Fyran River basin (Sweden), and North Platte River basin (US), respectively. Those data are organized in “DATA.xls” file. It should be noted that due to policy limitations, the streamflow data collected from Bashou station are not published here. 
+The data used in this study is the monthly streamflow data sets (1963/01-2017/12) of the Bashou, Fyras and Wyoming-Nebraska stations in the Chengbi River basin (China), Fyran River basin (Sweden), and North Platte River basin (US), respectively. Those data are organized in the “DATA.xls” file. It should be noted that due to policy limitations, the streamflow data collected from Bashou station are not published here. 
 
-The fundamental code for stage 1 “Nonstationary assessment"，stage 2 “Stationarization-based modeling”, and stage 3 “Reconstruction” is organized in the “Nonstationary_assessment” directory, “Stationary_methods” directory combined with  “Standard_model” directory, and “Reconstruction_method” directory, respectively. 
+The fundamental code for stage 1 “Nonstationary assessment"， stage 2 “Stationarization-based modeling”, and stage 3 “Reconstruction” is organized in the “Nonstationary_assessment” directory, “Stationary_methods” directory combined with the “Standard_model” directory, and “Reconstruction_method” directory, respectively. 
 
 To reproduce the results of this paper, follow the instructions given in readme.md. Note that the same results demonstrated in this paper cannot be reproduced but similar results should be reproduced.
 
 Open-source software:
  
-In this work, we employ multiple open-source projects and python language platform for the software implementation of the proposed framework. Specifically, the “Rbeast” project to create Bayesian statistics for non-stationarity assessment, The EMD-signal and Vmdpy projects to create decomposition algorithms (including EMD and CEEMDAN and VMD) for data stationarization; the Scikit-Learn project to create SVM model for modeling, and the Particle Swarm Optimization algorithm in the Scikit-opt project to tune the parameters of the SVM and of the developed innovative reconstruction method. The developed innovative reconstruction method is coded and compiled in python language. In addition, we use the Numpy (van der Walt et al., 2011) and Xlwings projects for data management, and the Multiprocessing module within python standard libraries to accelerate the computations.
+In this work, we employ multiple open-source projects and python language platform for the software implementation of the proposed framework. Specifically, the “Beast” project to create Bayesian statistics for non-stationarity assessment, The EMD-signal and Vmdpy projects to create decomposition algorithms (including EMD and CEEMDAN and VMD) for data stationarization; the Scikit-Learn project to create SVM model for modeling, and the Particle Swarm Optimization algorithm in the Scikit-opt project to tune the parameters of the SVM and of the developed innovative reconstruction method. The developed innovative reconstruction method is coded and compiled in python language. In addition, we use the Numpy (van der Walt et al., 2011) and Xlwings projects for data management, and the Multiprocessing module within python standard libraries to accelerate the computations.
 All models are developed and tested based on the following Python version and Computer hardware:
 Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 23:11:46) [MSC v.1916 64 bit (AMD64)] on win32
 CPU: Intel(R) Core(TM) i5-12400F   2.50 GHz
@@ -41,7 +39,7 @@ git clone https://github.com/leixingbi/ThreeStage_StreamflowPrediction_Framework
 
 3. Run the file “main_ParallelAccelerationVersion.py” in Pycharm IDE for the auto operation of the proposed framework methodology and its realizations;
 
-Note that we provide a more detailed code(s) explanation within each file. The operation results are organized in the file “result_multi_process.xlsx”, “Result” directory.
+Note that we provide a more detailed code(s) explanation within each file. In this software implementation, We name the innovative reconstruction method as minimum error reconstruction (MER). The operation results are organized in the file “result_multi_process.xlsx”, “Result” directory.
 
 Reference
 
