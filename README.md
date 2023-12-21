@@ -12,7 +12,7 @@ hydro; surface water
 
 Description:
 
-This data repository contains code and data for the research article “A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction”, which is currently under review for the journal "CATENA".
+This data repository contains code and data for the research article “A Robust Three-stage Framework for Monthly Streamflow Forecasting: Nonstationary assessment, Stationarization-based modeling, and Reconstruction”, which is currently under review for the journal "JOURNAL OF HYDROINFORMATICS".
 
 The data used in this study is the monthly streamflow data sets (1963/01-2017/12) of the Bashou, Fyras and Wyoming-Nebraska stations in the Chengbi River basin (China), Fyran River basin (Sweden), and North Platte River basin (US), respectively. Those data are organized in the “DATA.xls” file. It should be noted that due to policy limitations, the streamflow data collected from Bashou station are not published here. 
 
